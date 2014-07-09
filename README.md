@@ -7,7 +7,7 @@ Requirement
 -----------
 [Docker](https://docs.docker.com/installation/#installation) (version >= 0.9)
 
-[docker-opendds](https://github.com/larry-fuy/docker-opendds)
+[docker-opendds](https://github.com/larry-fuy/docker-opendds) (Only necessary if you need to build the container image by yourself, which is not recommended)
 
 Install and run
 ---------------
