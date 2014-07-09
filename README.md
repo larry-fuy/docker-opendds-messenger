@@ -1,11 +1,13 @@
 docker-opendds-messenger
 ========================
 
-This project deployed [OpenDDS](www.opendds.org) example Messenger on Docker containers
+This project deploys a Messenger example of [OpenDDS](opendds.org) on Docker containers. The example includes three processes, DCPSInfoRepo, Publisher and Subscriber. DCPSInfoRepo works as discovery service. Publisher transmits message to Subscriber. Each of processes runs on a Docker container. 
 
 Requirement
 -----------
-Docker (>= 0.9)
+[Docker](https://docs.docker.com/installation/#installation) (version >= 0.9)
+
+[docker-opendds](https://github.com/larry-fuy/docker-opendds)
 
 Install and run
 ---------------
