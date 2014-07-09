@@ -18,5 +18,6 @@ Install and run
 2. Run tests
   
   ```cd docker-opendds-messenger &&   ./run_test_docker.sh```
+  You may wait a few minutes (depends on your network) to pull the image of the container from Docker's public repository. 
   
-  If output is ```... passed ...```, the test runs successfully. Otherwise please check the log files for InfoRepo, Publisher and Subscriber (repo.log, pub.log, sub.log).
+  If output include ```... passed ...```, the example runs successfully. Otherwise please check the log files for InfoRepo, Publisher and Subscriber (repo.log, pub.log, sub.log) for details.
