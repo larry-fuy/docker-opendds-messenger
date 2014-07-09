@@ -1,0 +1,4 @@
+# port used for info repo
+repo_port=10000
+# port used for publisher and subscriber
+host_port=1234

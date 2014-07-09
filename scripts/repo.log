@@ -1,0 +1,171 @@
+(9|140411319641984) NOTICE: not using file configuration - no configuration file specified.
+(9|140411319641984) NOTICE: Service_Participant::intializeScheduling() - no scheduling policy specified, not setting policy.
+(9|140411319641984) Service_Participant::set_repo_ior: Repo[ DEFAULT_REPO] == IOR:010000001e00000049444c3a4f70656e4444532f444350532f44435053496e666f3a312e30000000010000000000000084000000010102000b0000003137322e31372e302e350000102700003400000014010f004e5550000000190000000001000000526f6f74504f4100496e666f5265706f000000000001000000496e666f5265706f02000000000000000800000001000000004f41540100000018000000010000000100010001000000010001050901010000000000
+(9|140411319641984) [repository/DEFAULT_REPO]: RepositoryIor == IOR:010000001e00000049444c3a4f70656e4444532f444350532f44435053496e666f3a312e30000000010000000000000084000000010102000b0000003137322e31372e302e350000102700003400000014010f004e5550000000190000000001000000526f6f74504f4100496e666f5265706f000000000001000000496e666f5265706f02000000000000000800000001000000004f41540100000018000000010000000100010001000000010001050901010000000000
+(9|140411319641984) Service_Participant::get_discovery: returning repository for domain 0, repo DEFAULT_REPO.
+(9|140411319641984) DCPS_IR_Domain::init_built_in_topics()  Initializing Built In Topics for domain 42
+(9|140411319641984) Service_Participant::get_discovery: returning repository for domain 42, repo DEFAULT_REPO.
+(9|140411319641984) (RepoId)TAO_DDS_DCPSInfo_i::add_domain_participant: participant 01030000.00000000.00000001.000001c1(9bb65a6a) in domain 42 is BIT publisher for this domain.
+(9|140411319641984) DCPS_IR_Domain::add_participant: added participant 01030000.00000000.00000001.000001c1(9bb65a6a) in domain 42 at 0x146d8a0.
+(9|140411319641984) (RepoId)TAO_DDS_DCPSInfo_i::add_domain_participant: domain 42 loaded participant 01030000.00000000.00000001.000001c1(9bb65a6a) at 0x146d8a0.
+(9|140411319641984) Service_Participant::get_discovery: returning repository for domain 42, repo DEFAULT_REPO.
+(9|140411319641984) DCPS_IR_Domain::add_topic_description: added Topic Description 0x146e920 in domain 42.
+(9|140411319641984) DCPS_IR_Topic_Description::add_topic: topic description DCPSParticipant added topic 01030000.00000000.00000001.00000145(71631d53) at 146e9c0.
+(9|140411319641984) DCPS_IR_Participant::add_topic_reference: participant 01030000.00000000.00000001.000001c1(9bb65a6a) successfully added topic 01030000.00000000.00000001.00000145(71631d53) at 0x146e9c0.
+(9|140411319641984) DCPS_IR_Domain::add_topic_i: Domain 42 successfully added topic 01030000.00000000.00000001.00000145(71631d53) at 0x146e9c0.
+(9|140411319641984) Service_Participant::get_discovery: returning repository for domain 42, repo DEFAULT_REPO.
+(9|140411319641984) DCPS_IR_Domain::add_topic_description: added Topic Description 0x146f0f0 in domain 42.
+(9|140411319641984) DCPS_IR_Topic_Description::add_topic: topic description DCPSTopic added topic 01030000.00000000.00000001.00000245(5a4e4e90) at 146f230.
+(9|140411319641984) DCPS_IR_Participant::add_topic_reference: participant 01030000.00000000.00000001.000001c1(9bb65a6a) successfully added topic 01030000.00000000.00000001.00000245(5a4e4e90) at 0x146f230.
+(9|140411319641984) DCPS_IR_Domain::add_topic_i: Domain 42 successfully added topic 01030000.00000000.00000001.00000245(5a4e4e90) at 0x146f230.
+(9|140411319641984) Service_Participant::get_discovery: returning repository for domain 42, repo DEFAULT_REPO.
+(9|140411319641984) DCPS_IR_Domain::add_topic_description: added Topic Description 0x146f970 in domain 42.
+(9|140411319641984) DCPS_IR_Topic_Description::add_topic: topic description DCPSSubscription added topic 01030000.00000000.00000001.00000345(43557fd1) at 146fab0.
+(9|140411319641984) DCPS_IR_Participant::add_topic_reference: participant 01030000.00000000.00000001.000001c1(9bb65a6a) successfully added topic 01030000.00000000.00000001.00000345(43557fd1) at 0x146fab0.
+(9|140411319641984) DCPS_IR_Domain::add_topic_i: Domain 42 successfully added topic 01030000.00000000.00000001.00000345(43557fd1) at 0x146fab0.
+(9|140411319641984) Service_Participant::get_discovery: returning repository for domain 42, repo DEFAULT_REPO.
+(9|140411319641984) DCPS_IR_Domain::add_topic_description: added Topic Description 0x1470200 in domain 42.
+(9|140411319641984) DCPS_IR_Topic_Description::add_topic: topic description DCPSPublication added topic 01030000.00000000.00000001.00000445(c14e916) at 1470340.
+(9|140411319641984) DCPS_IR_Participant::add_topic_reference: participant 01030000.00000000.00000001.000001c1(9bb65a6a) successfully added topic 01030000.00000000.00000001.00000445(c14e916) at 0x1470340.
+(9|140411319641984) DCPS_IR_Domain::add_topic_i: Domain 42 successfully added topic 01030000.00000000.00000001.00000445(c14e916) at 0x1470340.
+(9|140411319641984) ParticipantBuiltinTopicDataDataWriterImpl::enable_specific is unbounded data - allocate from heap
+(9|140411319641984) ParticipantBuiltinTopicDataDataWriterImpl::enable_specific-mb Cached_Allocator_With_Overflow 1472cc0 with 200 chunks
+(9|140411319641984) ParticipantBuiltinTopicDataDataWriterImpl::enable_specific-db Cached_Allocator_With_Overflow 1476c00 with 20 chunks
+(9|140411319641984) WriteDataContainer sample_list_element_allocator 1477b90 with 20 chunks
+(9|140411319641984) WriteDataContainer transport_send_element_allocator 1477c08 with 20 chunks
+(9|140411319641984) DataWriterImpl::enable-mb Cached_Allocator_With_Overflow 147c640 with 20 chunks
+(9|140411319641984) DataWriterImpl::enable-db Cached_Allocator_With_Overflow 1480580 with 20 chunks
+(9|140411319641984) DataWriterImpl::enable-header Cached_Allocator_With_Overflow 1480cd0 with 20 chunks
+(9|140411319641984) WARNING: Could not find FQDN. Using "9434abc8f231" as fully qualified hostname, please correct system configuration.
+(9|140411319641984) Service_Participant::get_discovery: returning repository for domain 42, repo DEFAULT_REPO.
+(9|140411319641984) DCPS_IR_Participant::add_publication: participant 01030000.00000000.00000001.000001c1(9bb65a6a) successfully added publication 01030000.00000000.00000001.00000102(99dbc960) at 0x14b2b70.
+(9|140411319641984) DCPS_IR_Topic::add_publication_reference: topic 01030000.00000000.00000001.00000145(71631d53) added publication 01030000.00000000.00000001.00000102(99dbc960) at 14b2b70
+(9|140411319641984) TopicBuiltinTopicDataDataWriterImpl::enable_specific is unbounded data - allocate from heap
+(9|140411319641984) TopicBuiltinTopicDataDataWriterImpl::enable_specific-mb Cached_Allocator_With_Overflow 14b4fc0 with 200 chunks
+(9|140411319641984) TopicBuiltinTopicDataDataWriterImpl::enable_specific-db Cached_Allocator_With_Overflow 14b8f00 with 20 chunks
+(9|140411319641984) WriteDataContainer sample_list_element_allocator 14b9e50 with 20 chunks
+(9|140411319641984) WriteDataContainer transport_send_element_allocator 14b9ec8 with 20 chunks
+(9|140411319641984) DataWriterImpl::enable-mb Cached_Allocator_With_Overflow 14be900 with 20 chunks
+(9|140411319641984) DataWriterImpl::enable-db Cached_Allocator_With_Overflow 14c2840 with 20 chunks
+(9|140411319641984) DataWriterImpl::enable-header Cached_Allocator_With_Overflow 14c2f90 with 20 chunks
+(9|140411319641984) Service_Participant::get_discovery: returning repository for domain 42, repo DEFAULT_REPO.
+(9|140411319641984) DCPS_IR_Participant::add_publication: participant 01030000.00000000.00000001.000001c1(9bb65a6a) successfully added publication 01030000.00000000.00000001.00000202(b2f69aa3) at 0x14c4dd0.
+(9|140411319641984) DCPS_IR_Topic::add_publication_reference: topic 01030000.00000000.00000001.00000245(5a4e4e90) added publication 01030000.00000000.00000001.00000202(b2f69aa3) at 14c4dd0
+(9|140411319641984) SubscriptionBuiltinTopicDataDataWriterImpl::enable_specific is unbounded data - allocate from heap
+(9|140411319641984) SubscriptionBuiltinTopicDataDataWriterImpl::enable_specific-mb Cached_Allocator_With_Overflow 14c4fa0 with 200 chunks
+(9|140411319641984) SubscriptionBuiltinTopicDataDataWriterImpl::enable_specific-db Cached_Allocator_With_Overflow 14c5050 with 20 chunks
+(9|140411319641984) WriteDataContainer sample_list_element_allocator 14cc080 with 20 chunks
+(9|140411319641984) WriteDataContainer transport_send_element_allocator 14cc0f8 with 20 chunks
+(9|140411319641984) DataWriterImpl::enable-mb Cached_Allocator_With_Overflow 14d0b30 with 20 chunks
+(9|140411319641984) DataWriterImpl::enable-db Cached_Allocator_With_Overflow 14d4a70 with 20 chunks
+(9|140411319641984) DataWriterImpl::enable-header Cached_Allocator_With_Overflow 14d51c0 with 20 chunks
+(9|140411319641984) Service_Participant::get_discovery: returning repository for domain 42, repo DEFAULT_REPO.
+(9|140411319641984) DCPS_IR_Participant::add_publication: participant 01030000.00000000.00000001.000001c1(9bb65a6a) successfully added publication 01030000.00000000.00000001.00000302(abedabe2) at 0x14d6fc0.
+(9|140411319641984) DCPS_IR_Topic::add_publication_reference: topic 01030000.00000000.00000001.00000345(43557fd1) added publication 01030000.00000000.00000001.00000302(abedabe2) at 14d6fc0
+(9|140411319641984) PublicationBuiltinTopicDataDataWriterImpl::enable_specific is unbounded data - allocate from heap
+(9|140411319641984) PublicationBuiltinTopicDataDataWriterImpl::enable_specific-mb Cached_Allocator_With_Overflow 14d71d0 with 200 chunks
+(9|140411319641984) PublicationBuiltinTopicDataDataWriterImpl::enable_specific-db Cached_Allocator_With_Overflow 14d7280 with 20 chunks
+(9|140411319641984) WriteDataContainer sample_list_element_allocator 14de2f0 with 20 chunks
+(9|140411319641984) WriteDataContainer transport_send_element_allocator 14de368 with 20 chunks
+(9|140411319641984) DataWriterImpl::enable-mb Cached_Allocator_With_Overflow 14e2da0 with 20 chunks
+(9|140411319641984) DataWriterImpl::enable-db Cached_Allocator_With_Overflow 14e6ce0 with 20 chunks
+(9|140411319641984) DataWriterImpl::enable-header Cached_Allocator_With_Overflow 14e7430 with 20 chunks
+(9|140411319641984) Service_Participant::get_discovery: returning repository for domain 42, repo DEFAULT_REPO.
+(9|140411319641984) DCPS_IR_Participant::add_publication: participant 01030000.00000000.00000001.000001c1(9bb65a6a) successfully added publication 01030000.00000000.00000001.00000402(e4ac3d25) at 0x14e9230.
+(9|140411319641984) DCPS_IR_Topic::add_publication_reference: topic 01030000.00000000.00000001.00000445(c14e916) added publication 01030000.00000000.00000001.00000402(e4ac3d25) at 14e9230
+(9|140411319641984) TAO_DDS_DCPSInfo_i::domain: successfully loaded domain 42 at 146cfe0.
+(9|140411319641984) DCPS_IR_Participant::take_ownership: pushing ownership 01030000.00000000.00000002.000001c1(dc1620ba) in domain 42.
+(9|140411319641984) DataLinkSet::send_control: no links for publication 00000000.00000000.00000000.00000000(ecbb4b55), not sending control message.
+(9|140411319641984) DCPS_IR_Domain::publish_participant_bit: [ 0, 0x2, 0x1c1], handle 2.
+(9|140411319641984) TransportClient::send: no links for publication 01030000.00000000.00000001.00000102(99dbc960), not sending 1 samples.
+(9|140411319641984) WriteDataContainer::data_delivered 147B330 
+(9|140411319641984) WriteDataContainer::data_delivered: domain 42 topic DCPSParticipant publication 01030000.00000000.00000001.00000102(99dbc960) pushed to HISTORY.
+(9|140411319641984) DCPS_IR_Domain::add_participant: added participant 01030000.00000000.00000002.000001c1(dc1620ba) in domain 42 at 0x14e9400.
+(9|140411319641984) (RepoId)TAO_DDS_DCPSInfo_i::add_domain_participant: pushing creation of participant 01030000.00000000.00000002.000001c1(dc1620ba) in domain 42.
+(9|140411319641984) (RepoId)TAO_DDS_DCPSInfo_i::add_domain_participant: domain 42 loaded participant 01030000.00000000.00000002.000001c1(dc1620ba) at 0x14e9400.
+(9|140411319641984) DCPS_IR_Domain::add_topic_description: added Topic Description 0x14e9660 in domain 42.
+(9|140411319641984) DCPS_IR_Topic_Description::add_topic: topic description Movie Discussion List added topic 01030000.00000000.00000002.00000145(36c36783) at 14e98a0.
+(9|140411319641984) DCPS_IR_Participant::add_topic_reference: participant 01030000.00000000.00000002.000001c1(dc1620ba) successfully added topic 01030000.00000000.00000002.00000145(36c36783) at 0x14e98a0.
+(9|140411319641984) DCPS_IR_Domain::add_topic_i: Domain 42 successfully added topic 01030000.00000000.00000002.00000145(36c36783) at 0x14e98a0.
+(9|140411319641984) DataLinkSet::send_control: no links for publication 00000000.00000000.00000000.00000000(ecbb4b55), not sending control message.
+(9|140411319641984) DCPS_IR_Domain::publish_topic_bit: [ 0, 0x2, 0x145], handle 3.
+(9|140411319641984) TransportClient::send: no links for publication 01030000.00000000.00000001.00000202(b2f69aa3), not sending 1 samples.
+(9|140411319641984) WriteDataContainer::data_delivered 14BD5F0 
+(9|140411319641984) WriteDataContainer::data_delivered: domain 42 topic DCPSTopic publication 01030000.00000000.00000001.00000202(b2f69aa3) pushed to HISTORY.
+(9|140411319641984) TAO_DDS_DCPSInfo_i::assert_topic: pushing creation of topic 01030000.00000000.00000002.00000145(36c36783) in domain 42.
+(9|140411319641984) DCPS_IR_Participant::add_publication: participant 01030000.00000000.00000002.000001c1(dc1620ba) successfully added publication 01030000.00000000.00000002.00000102(de7bb3b0) at 0x14ebbc0.
+(9|140411319641984) DataLinkSet::send_control: no links for publication 00000000.00000000.00000000.00000000(ecbb4b55), not sending control message.
+(9|140411319641984) DCPS_IR_Domain::publish_publication_bit: [ 0, 0x2, 0x102], handle 4.
+(9|140411319641984) TransportClient::send: no links for publication 01030000.00000000.00000001.00000402(e4ac3d25), not sending 1 samples.
+(9|140411319641984) WriteDataContainer::data_delivered 14E1A90 
+(9|140411319641984) WriteDataContainer::data_delivered: domain 42 topic DCPSPublication publication 01030000.00000000.00000001.00000402(e4ac3d25) pushed to HISTORY.
+(9|140411319641984) DCPS_IR_Topic::add_publication_reference: topic 01030000.00000000.00000002.00000145(36c36783) added publication 01030000.00000000.00000002.00000102(de7bb3b0) at 14ebbc0
+(9|140411319641984) (RepoId)TAO_DDS_DCPSInfo_i::add_publication: pushing creation of publication 01030000.00000000.00000002.00000102(de7bb3b0) in domain 42.
+(9|140411319641984) DCPS_IR_Participant::take_ownership: pushing ownership 01030000.00000000.00000003.000001c1(e176090a) in domain 42.
+(9|140411319641984) DataLinkSet::send_control: no links for publication 00000000.00000000.00000000.00000000(ecbb4b55), not sending control message.
+(9|140411319641984) DCPS_IR_Domain::publish_participant_bit: [ 0, 0x3, 0x1c1], handle 5.
+(9|140411319641984) TransportClient::send: no links for publication 01030000.00000000.00000001.00000102(99dbc960), not sending 1 samples.
+(9|140411319641984) WriteDataContainer::data_delivered 147B1D0 
+(9|140411319641984) WriteDataContainer::data_delivered: domain 42 topic DCPSParticipant publication 01030000.00000000.00000001.00000102(99dbc960) pushed to HISTORY.
+(9|140411319641984) DCPS_IR_Domain::add_participant: added participant 01030000.00000000.00000003.000001c1(e176090a) in domain 42 at 0x14f4130.
+(9|140411319641984) (RepoId)TAO_DDS_DCPSInfo_i::add_domain_participant: pushing creation of participant 01030000.00000000.00000003.000001c1(e176090a) in domain 42.
+(9|140411319641984) (RepoId)TAO_DDS_DCPSInfo_i::add_domain_participant: domain 42 loaded participant 01030000.00000000.00000003.000001c1(e176090a) at 0x14f4130.
+(9|140411319641984) DCPS_IR_Domain::find_topic_description: located topic description Movie Discussion List/IDL:Messenger/MessageTypeSupport:1.0 in domain 42.
+(9|140411319641984) DCPS_IR_Topic_Description::add_topic: topic description Movie Discussion List added topic 01030000.00000000.00000003.00000145(ba34e33) at 14eb2a0.
+(9|140411319641984) DCPS_IR_Participant::add_topic_reference: participant 01030000.00000000.00000003.000001c1(e176090a) successfully added topic 01030000.00000000.00000003.00000145(ba34e33) at 0x14eb2a0.
+(9|140411319641984) DCPS_IR_Domain::add_topic_i: Domain 42 successfully added topic 01030000.00000000.00000003.00000145(ba34e33) at 0x14eb2a0.
+(9|140411319641984) DataLinkSet::send_control: no links for publication 00000000.00000000.00000000.00000000(ecbb4b55), not sending control message.
+(9|140411319641984) DCPS_IR_Domain::publish_topic_bit: [ 0, 0x3, 0x145], handle 6.
+(9|140411319641984) TransportClient::send: no links for publication 01030000.00000000.00000001.00000202(b2f69aa3), not sending 1 samples.
+(9|140411319641984) WriteDataContainer::data_delivered 14BD490 
+(9|140411319641984) WriteDataContainer::data_delivered: domain 42 topic DCPSTopic publication 01030000.00000000.00000001.00000202(b2f69aa3) pushed to HISTORY.
+(9|140411319641984) TAO_DDS_DCPSInfo_i::assert_topic: pushing creation of topic 01030000.00000000.00000003.00000145(ba34e33) in domain 42.
+(9|140411319641984) DCPS_IR_Participant::add_subscription: participant 01030000.00000000.00000003.000001c1(e176090a) successfully added subscription 01030000.00000000.00000003.00000107(93716e8f) at 0x14f5660.
+(9|140411319641984) DCPS_IR_Topic::add_subscription_reference: topic 01030000.00000000.00000003.00000145(ba34e33) added subscription 01030000.00000000.00000003.00000107(93716e8f) at 14f5660.
+(9|140411319641984) DataLinkSet::send_control: no links for publication 00000000.00000000.00000000.00000000(ecbb4b55), not sending control message.
+(9|140411319641984) DCPS_IR_Domain::publish_subscription_bit: [ 0, 0x3, 0x107], handle 7.
+(9|140411319641984) TransportClient::send: no links for publication 01030000.00000000.00000001.00000302(abedabe2), not sending 1 samples.
+(9|140411319641984) WriteDataContainer::data_delivered 14CF820 
+(9|140411319641984) WriteDataContainer::data_delivered: domain 42 topic DCPSSubscription publication 01030000.00000000.00000001.00000302(abedabe2) pushed to HISTORY.
+(9|140411319641984) DCPS_IR_Topic_Description::try_associate: topic description Movie Discussion List checking compatibility of publication 01030000.00000000.00000002.00000102(de7bb3b0) with subscription 01030000.00000000.00000003.00000107(93716e8f).
+(9|140411319641984) DCPS_IR_Topic_Description::associate: topic description Movie Discussion List associating publication 01030000.00000000.00000002.00000102(de7bb3b0) with subscription 01030000.00000000.00000003.00000107(93716e8f).
+(9|140411319641984) DCPS_IR_Publication::add_associated_subscription: publication 01030000.00000000.00000002.00000102(de7bb3b0) adding subscription 01030000.00000000.00000003.00000107(93716e8f).
+(9|140411319641984) DCPS_IR_Publication::add_associated_subscription: successfully added subscription 14f5660.
+(9|140411319641984) DCPS_IR_Subscription::add_associated_publication: subscription 01030000.00000000.00000003.00000107(93716e8f) adding publication 01030000.00000000.00000002.00000102(de7bb3b0).
+(9|140411319641984) DCPS_IR_Subscription::add_associated_publication: successfully added publication 14ebbc0
+(9|140411319641984) DCPS_IR_Topic_Description::add_subscription_reference: topic description Movie Discussion List added subscription 01030000.00000000.00000003.00000107(93716e8f) at 14f5660
+(9|140411319641984) (RepoId)TAO_DDS_DCPSInfo_i::add_subscription: pushing creation of subscription 01030000.00000000.00000003.00000107(93716e8f) in domain 42.
+(9|140411319641984) DCPS_IR_Participant::find_subscription_reference: participant 01030000.00000000.00000003.000001c1(e176090a) found subscription 01030000.00000000.00000003.00000107(93716e8f) at 0x14f5660.
+(9|140411319641984) DCPS_IR_Topic::remove_publication_reference: topic 01030000.00000000.00000002.00000145(36c36783) removed publication 01030000.00000000.00000002.00000102(de7bb3b0).
+(9|140411319641984) DCPS_IR_Subscription::remove_associated_publication: subscription 01030000.00000000.00000003.00000107(93716e8f) removed publication 01030000.00000000.00000002.00000102(de7bb3b0) at 14ebbc0.
+(9|140411319641984) DCPS_IR_Publication::remove_associated_subscription: publication 01030000.00000000.00000002.00000102(de7bb3b0) removed subscription 01030000.00000000.00000003.00000107(93716e8f) at 14f5660.
+(9|140411319641984) WriteDataContainer::remove_oldest_sample: domain 42 topic DCPSPublication publication 01030000.00000000.00000001.00000402(e4ac3d25) sample removed from HISTORY.
+(9|140411319641984) DataLinkSet::send_control: no links for publication 00000000.00000000.00000000.00000000(ecbb4b55), not sending control message.
+(9|140411319641984) DCPS_IR_Participant::remove_publication: participant 01030000.00000000.00000002.000001c1(dc1620ba) removed publication 01030000.00000000.00000002.00000102(de7bb3b0).
+(9|140411319641984) TAO_DDS_DCPSInfo_i::remove_publication: pushing deletion of publication 01030000.00000000.00000002.00000102(de7bb3b0) in domain 42.
+(9|140411319641984) DCPS_IR_Participant::find_topic_reference: participant 01030000.00000000.00000002.000001c1(dc1620ba) found topic 01030000.00000000.00000002.00000145(36c36783) at 14e98a0.
+(9|140411319641984) DCPS_IR_Topic_Description::remove_topic: topic description Movie Discussion List removed topic 01030000.00000000.00000002.00000145(36c36783).
+(9|140411319641984) DCPS_IR_Participant::remove_topic_reference: participant 01030000.00000000.00000002.000001c1(dc1620ba) removed topic 01030000.00000000.00000002.00000145(36c36783) at 0x14e98a0.
+(9|140411319641984) WriteDataContainer::remove_oldest_sample: domain 42 topic DCPSTopic publication 01030000.00000000.00000001.00000202(b2f69aa3) sample removed from HISTORY.
+(9|140411319641984) DataLinkSet::send_control: no links for publication 00000000.00000000.00000000.00000000(ecbb4b55), not sending control message.
+(9|140411319641984) TAO_DDS_DCPSInfo_i::remove_topic: pushing deletion of topic 01030000.00000000.00000002.00000145(36c36783) in domain 42.
+(9|140411319641984) DCPS_IR_Topic::remove_subscription_reference: topic 01030000.00000000.00000003.00000145(ba34e33) removed subscription 01030000.00000000.00000003.00000107(93716e8f).
+(9|140411319641984) DCPS_IR_Topic_Description::remove_subscription_reference: topic description Movie Discussion List removed subscription 01030000.00000000.00000003.00000107(93716e8f).
+(9|140411319641984) WriteDataContainer::remove_oldest_sample: domain 42 topic DCPSSubscription publication 01030000.00000000.00000001.00000302(abedabe2) sample removed from HISTORY.
+(9|140411319641984) DataLinkSet::send_control: no links for publication 00000000.00000000.00000000.00000000(ecbb4b55), not sending control message.
+(9|140411319641984) DCPS_IR_Participant::remove_subscription: participant 01030000.00000000.00000003.000001c1(e176090a) removed subscription 01030000.00000000.00000003.00000107(93716e8f).
+(9|140411319641984) TAO_DDS_DCPSInfo_i::remove_subscription: pushing deletion of subscription 01030000.00000000.00000003.00000107(93716e8f) in domain 42.
+(9|140411319641984) DCPS_IR_Domain::remove_participant: removed participant 01030000.00000000.00000002.000001c1(dc1620ba) at 0x14e9400 from domain 42.
+(9|140411319641984) WriteDataContainer::remove_oldest_sample: domain 42 topic DCPSParticipant publication 01030000.00000000.00000001.00000102(99dbc960) sample removed from HISTORY.
+(9|140411319641984) DataLinkSet::send_control: no links for publication 00000000.00000000.00000000.00000000(ecbb4b55), not sending control message.
+(9|140411319641984) TAO_DDS_DCPSInfo_i::remove_domain_participant: pushing deletion of participant 01030000.00000000.00000002.000001c1(dc1620ba) in domain 42.
+(9|140411319641984) DCPS_IR_Participant::find_topic_reference: participant 01030000.00000000.00000003.000001c1(e176090a) found topic 01030000.00000000.00000003.00000145(ba34e33) at 14eb2a0.
+(9|140411319641984) DCPS_IR_Topic_Description::remove_topic: topic description Movie Discussion List removed topic 01030000.00000000.00000003.00000145(ba34e33).
+(9|140411319641984) DCPS_IR_Participant::remove_topic_reference: participant 01030000.00000000.00000003.000001c1(e176090a) removed topic 01030000.00000000.00000003.00000145(ba34e33) at 0x14eb2a0.
+(9|140411319641984) WriteDataContainer::remove_oldest_sample: domain 42 topic DCPSTopic publication 01030000.00000000.00000001.00000202(b2f69aa3) sample removed from HISTORY.
+(9|140411319641984) DataLinkSet::send_control: no links for publication 00000000.00000000.00000000.00000000(ecbb4b55), not sending control message.
+(9|140411319641984) TAO_DDS_DCPSInfo_i::remove_topic: pushing deletion of topic 01030000.00000000.00000003.00000145(ba34e33) in domain 42.
+(9|140411319641984) DCPS_IR_Domain::remove_participant: removed participant 01030000.00000000.00000003.000001c1(e176090a) at 0x14f4130 from domain 42.
+(9|140411319641984) WriteDataContainer::remove_oldest_sample: domain 42 topic DCPSParticipant publication 01030000.00000000.00000001.00000102(99dbc960) sample removed from HISTORY.
+(9|140411319641984) DataLinkSet::send_control: no links for publication 00000000.00000000.00000000.00000000(ecbb4b55), not sending control message.
+(9|140411319641984) TAO_DDS_DCPSInfo_i::remove_domain_participant: pushing deletion of participant 01030000.00000000.00000003.000001c1(e176090a) in domain 42.

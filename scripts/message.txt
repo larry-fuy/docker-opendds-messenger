@@ -1,0 +1,51 @@
+Msg: subject    Review
+     subject_id 99
+     from       Comic Book Guy
+     count      0
+     text       Worst. Movie. Ever.
+Msg: subject    Review
+     subject_id 100
+     from       Comic Book Guy
+     count      1
+     text       Worst. Movie. Ever.
+Msg: subject    Review
+     subject_id 101
+     from       Comic Book Guy
+     count      2
+     text       Worst. Movie. Ever.
+Msg: subject    Review
+     subject_id 102
+     from       Comic Book Guy
+     count      3
+     text       Worst. Movie. Ever.
+Msg: subject    Review
+     subject_id 103
+     from       Comic Book Guy
+     count      4
+     text       Worst. Movie. Ever.
+Msg: subject    Review
+     subject_id 104
+     from       Comic Book Guy
+     count      5
+     text       Worst. Movie. Ever.
+Msg: subject    Review
+     subject_id 105
+     from       Comic Book Guy
+     count      6
+     text       Worst. Movie. Ever.
+Msg: subject    Review
+     subject_id 106
+     from       Comic Book Guy
+     count      7
+     text       Worst. Movie. Ever.
+Msg: subject    Review
+     subject_id 107
+     from       Comic Book Guy
+     count      8
+     text       Worst. Movie. Ever.
+Msg: subject    Review
+     subject_id 108
+     from       Comic Book Guy
+     count      9
+     text       Worst. Movie. Ever.
+Subscriber received 10 samples

@@ -1,0 +1,176 @@
+(13|139906701543296) NOTICE: using DCPSDebugLevel value from command option (overrides value if it's in config file).
+(13|139906701543296) Service_Participant::set_repo_ior: Repo[ DEFAULT_REPO] == 172.17.0.5:10000
+(13|139906701543296) [repository/DEFAULT_REPO]: RepositoryIor == 172.17.0.5:10000
+(13|139906701543296) NOTICE: Service_Participant::load_domain_configuration failed to open [domain] section - using code default.
+(13|139906701543296) NOTICE: Service_Participant::intializeScheduling() - no scheduling policy specified, not setting policy.
+(13|139906701543296) Service_Participant::get_discovery: returning repository for domain 42, repo DEFAULT_REPO.
+(13|139906701543296) Service_Participant::get_discovery: returning repository for domain 42, repo DEFAULT_REPO.
+(13|139906701543296) Service_Participant::get_discovery: returning repository for domain 42, repo DEFAULT_REPO.
+(13|139906701543296) MessageDataWriterImpl::enable_specific is unbounded data - allocate from heap
+(13|139906701543296) MessageDataWriterImpl::enable_specific-mb Cached_Allocator_With_Overflow 10d7f00 with 200 chunks
+(13|139906701543296) MessageDataWriterImpl::enable_specific-db Cached_Allocator_With_Overflow 10ded60 with 20 chunks
+(13|139906701543296) WriteDataContainer sample_list_element_allocator 10dfd30 with 20 chunks
+(13|139906701543296) WriteDataContainer transport_send_element_allocator 10dfda8 with 20 chunks
+(13|139906701543296) DataWriterImpl::enable-mb Cached_Allocator_With_Overflow 10e47e0 with 20 chunks
+(13|139906701543296) DataWriterImpl::enable-db Cached_Allocator_With_Overflow 10e8720 with 20 chunks
+(13|139906701543296) DataWriterImpl::enable-header Cached_Allocator_With_Overflow 10e8e70 with 20 chunks
+(13|139906701543296) Service_Participant::get_discovery: returning repository for domain 42, repo DEFAULT_REPO.
+(13|139906701543296) ConditionImpl::signal_all()
+(13|139906701543296) StatusConditionImpl::get_trigger_value() - mask==0x2000, changes==0x0.
+(13|139906701543296) StatusConditionImpl::get_trigger_value() - mask==0x2000, changes==0x0.
+WriterSync: waiting for pub matched
+(13|139906701543296) StatusConditionImpl::get_trigger_value() - mask==0x2000, changes==0x0.
+(13|139906629445376) DataWriterImpl::add_association - bit 0 local 01030000.00000000.00000002.00000102(de7bb3b0) remote 01030000.00000000.00000003.00000107(93716e8f)
+(13|139906629445376) DataWriterImpl::add_association(): adding subscription to publication 01030000.00000000.00000002.00000102(de7bb3b0) with priority 0.
+(13|139906629445376) TcpTransport::make_active_connection() - established with <unknown>:1234 and priority 0.
+   There are 0 publications currently associated with this link:
+(13|139906629445376) DirectPriorityMapper:codepoint() - mapped TRANSPORT_PRIORITY value 0 to codepoint 0.
+(13|139906629445376) DataLink::set_dscp_codepoint() - set IPV4 TOS codepoint to 0.
+(13|139906629445376) TcpTransport::connect_tcp_datalink() [1] - creating send strategy with priority 0.
+(13|139906629445376) DirectPriorityMapper:thread_priority() - mapped TRANSPORT_PRIORITY value 0 to thread priority 0.
+(13|139906629445376) ReactorSynch::ReactorSynch() [0] - establishing synch without a worker.
+(13|139906629445376) TcpReceiveStrategy::start_i() - link:
+   There are 0 publications currently associated with this link:
+ connected to <unknown>:1234 registering with reactor to receive.
+(13|139906629445376) DataLink::make_reservation() - creating association local publication  01030000.00000000.00000002.00000102(de7bb3b0) <--> with remote subscription 01030000.00000000.00000003.00000107(93716e8f).
+(13|139906629445376) DataWriterImpl::add_association: marked 01030000.00000000.00000003.00000107(93716e8f) as pending.
+(13|139906629445376) DataWriterImpl::association_complete - bit 0 local 01030000.00000000.00000002.00000102(de7bb3b0) remote 01030000.00000000.00000003.00000107(93716e8f)
+(13|139906629445376) DataWriterImpl::association_complete_i: id_to_handle_map_01030000.00000000.00000003.00000107(93716e8f) = 0x2.
+(13|139906629445376) ConditionImpl::signal_all()
+(13|139906629445376) StatusConditionImpl::get_trigger_value() - mask==0x2000, changes==0x2000.
+(13|139906629445376) ConditionImpl::signal_all() - number of sets: 1, locally: 1.
+WriterSync: waiting for pub matched
+WriterSync: pub matched
+(13|139906701543296) TransportSendStrategy::send() [1] - sending data at 0x10da0e8.
+(13|139906701543296) TransportSendStrategy::do_send_packet() [1] - sending data at 0x80037ed0.
+(13|139906701543296) TransportSendStrategy::send() [1] - sending data at 0x10e3c58.
+(13|139906701543296) TransportSendStrategy::do_send_packet() [1] - sending data at 0x80037ed0.
+(13|139906701543296) WriteDataContainer::data_delivered 10E34D0 
+(13|139906701543296) WriteDataContainer::data_delivered: domain 42 topic Movie Discussion List publication 01030000.00000000.00000002.00000102(de7bb3b0) pushed to HISTORY.
+(13|139906701543296) TransportSendStrategy::send() [1] - sending data at 0x10da0e8.
+(13|139906701543296) TransportSendStrategy::do_send_packet() [1] - sending data at 0x80037ed0.
+(13|139906701543296) TransportSendStrategy::send() [1] - sending data at 0x10e3c58.
+(13|139906701543296) TransportSendStrategy::do_send_packet() [1] - sending data at 0x80037ed0.
+(13|139906701543296) WriteDataContainer::data_delivered 10E3370 
+(13|139906701543296) WriteDataContainer::data_delivered: domain 42 topic Movie Discussion List publication 01030000.00000000.00000002.00000102(de7bb3b0) pushed to HISTORY.
+(13|139906701543296) TransportSendStrategy::send() [1] - sending data at 0x10da0e8.
+(13|139906701543296) TransportSendStrategy::do_send_packet() [1] - sending data at 0x80037ed0.
+(13|139906701543296) TransportSendStrategy::send() [1] - sending data at 0x10e3c58.
+(13|139906701543296) TransportSendStrategy::do_send_packet() [1] - sending data at 0x80037ed0.
+(13|139906701543296) WriteDataContainer::data_delivered 10E3210 
+(13|139906701543296) WriteDataContainer::data_delivered: domain 42 topic Movie Discussion List publication 01030000.00000000.00000002.00000102(de7bb3b0) pushed to HISTORY.
+(13|139906701543296) TransportSendStrategy::send() [1] - sending data at 0x10da0e8.
+(13|139906701543296) TransportSendStrategy::do_send_packet() [1] - sending data at 0x80037ed0.
+(13|139906701543296) TransportSendStrategy::send() [1] - sending data at 0x10e3c58.
+(13|139906701543296) TransportSendStrategy::do_send_packet() [1] - sending data at 0x80037ed0.
+(13|139906701543296) WriteDataContainer::data_delivered 10E30B0 
+(13|139906701543296) WriteDataContainer::data_delivered: domain 42 topic Movie Discussion List publication 01030000.00000000.00000002.00000102(de7bb3b0) pushed to HISTORY.
+(13|139906701543296) TransportSendStrategy::send() [1] - sending data at 0x10da0e8.
+(13|139906701543296) TransportSendStrategy::do_send_packet() [1] - sending data at 0x80037ed0.
+(13|139906701543296) TransportSendStrategy::send() [1] - sending data at 0x10e3c58.
+(13|139906701543296) TransportSendStrategy::do_send_packet() [1] - sending data at 0x80037ed0.
+(13|139906701543296) WriteDataContainer::data_delivered 10E2F50 
+(13|139906701543296) WriteDataContainer::data_delivered: domain 42 topic Movie Discussion List publication 01030000.00000000.00000002.00000102(de7bb3b0) pushed to HISTORY.
+(13|139906701543296) TransportSendStrategy::send() [1] - sending data at 0x10da0e8.
+(13|139906701543296) TransportSendStrategy::do_send_packet() [1] - sending data at 0x80037ed0.
+(13|139906701543296) TransportSendStrategy::send() [1] - sending data at 0x10e3c58.
+(13|139906701543296) TransportSendStrategy::do_send_packet() [1] - sending data at 0x80037ed0.
+(13|139906701543296) WriteDataContainer::data_delivered 10E2DF0 
+(13|139906701543296) WriteDataContainer::data_delivered: domain 42 topic Movie Discussion List publication 01030000.00000000.00000002.00000102(de7bb3b0) pushed to HISTORY.
+(13|139906701543296) TransportSendStrategy::send() [1] - sending data at 0x10da0e8.
+(13|139906701543296) TransportSendStrategy::do_send_packet() [1] - sending data at 0x80037ed0.
+(13|139906701543296) TransportSendStrategy::send() [1] - sending data at 0x10e3c58.
+(13|139906701543296) TransportSendStrategy::do_send_packet() [1] - sending data at 0x80037ed0.
+(13|139906701543296) WriteDataContainer::data_delivered 10E2C90 
+(13|139906701543296) WriteDataContainer::data_delivered: domain 42 topic Movie Discussion List publication 01030000.00000000.00000002.00000102(de7bb3b0) pushed to HISTORY.
+(13|139906701543296) TransportSendStrategy::send() [1] - sending data at 0x10da0e8.
+(13|139906701543296) TransportSendStrategy::do_send_packet() [1] - sending data at 0x80037ed0.
+(13|139906701543296) TransportSendStrategy::send() [1] - sending data at 0x10e3c58.
+(13|139906701543296) TransportSendStrategy::do_send_packet() [1] - sending data at 0x80037ed0.
+(13|139906701543296) WriteDataContainer::data_delivered 10E2B30 
+(13|139906701543296) WriteDataContainer::data_delivered: domain 42 topic Movie Discussion List publication 01030000.00000000.00000002.00000102(de7bb3b0) pushed to HISTORY.
+(13|139906701543296) TransportSendStrategy::send() [1] - sending data at 0x10da0e8.
+(13|139906701543296) TransportSendStrategy::do_send_packet() [1] - sending data at 0x80037ed0.
+(13|139906701543296) TransportSendStrategy::send() [1] - sending data at 0x10e3c58.
+(13|139906701543296) TransportSendStrategy::do_send_packet() [1] - sending data at 0x80037ed0.
+(13|139906701543296) WriteDataContainer::data_delivered 10E29D0 
+(13|139906701543296) WriteDataContainer::data_delivered: domain 42 topic Movie Discussion List publication 01030000.00000000.00000002.00000102(de7bb3b0) pushed to HISTORY.
+(13|139906701543296) TransportSendStrategy::send() [1] - sending data at 0x10da0e8.
+(13|139906701543296) TransportSendStrategy::do_send_packet() [1] - sending data at 0x80037ed0.
+(13|139906701543296) TransportSendStrategy::send() [1] - sending data at 0x10e3c58.
+(13|139906701543296) TransportSendStrategy::do_send_packet() [1] - sending data at 0x80037ed0.
+(13|139906701543296) WriteDataContainer::data_delivered 10E2870 
+(13|139906701543296) WriteDataContainer::data_delivered: domain 42 topic Movie Discussion List publication 01030000.00000000.00000002.00000102(de7bb3b0) pushed to HISTORY.
+WriterSync: waiting for acks
+(13|139906701543296) DataWriterImpl::send_ack_requests() - 01030000.00000000.00000002.00000102(de7bb3b0) sending REQUEST_ACK message for sequence 20 to 1 subscriptions.
+(13|139906701543296) TransportSendStrategy::send() [1] - sending data at 0x10da0e8.
+(13|139906701543296) TransportSendStrategy::do_send_packet() [1] - sending data at 0x80037ed0.
+(13|139906701543296) DataWriterImpl::wait_for_ack_responses() - waiting for seq 20 from sub 01030000.00000000.00000003.00000107(93716e8f), got 1
+(13|139906521229056) DataWriterImpl::deliver_ack() - publication 01030000.00000000.00000002.00000102(de7bb3b0) received update for sample 20 from subscription 01030000.00000000.00000003.00000107(93716e8f).
+(13|139906521229056) DataWriterImpl::deliver_ack() - broadcasting update.
+(13|139906701543296) DataWriterImpl::wait_for_ack_responses() - 01030000.00000000.00000002.00000102(de7bb3b0) unblocking for sequence 20.
+WriterSync: acks received
+(13|139906701543296) WriteDataContainer::remove_oldest_sample: domain 42 topic Movie Discussion List publication 01030000.00000000.00000002.00000102(de7bb3b0) sample removed from HISTORY.
+(13|139906701543296) TransportSendStrategy::send() [1] - sending data at 0x10da0e8.
+(13|139906701543296) TransportSendStrategy::do_send_packet() [1] - sending data at 0x80037ed0.
+(13|139906701543296) TransportSendStrategy::send() [1] - sending data at 0x10da0e8.
+(13|139906701543296) TransportSendStrategy::do_send_packet() [1] - sending data at 0x80037ed0.
+(13|139906701543296) WriteDataContainer::remove_oldest_sample: domain 42 topic Movie Discussion List publication 01030000.00000000.00000002.00000102(de7bb3b0) sample removed from HISTORY.
+(13|139906701543296) TransportSendStrategy::send() [1] - sending data at 0x10da0e8.
+(13|139906701543296) TransportSendStrategy::do_send_packet() [1] - sending data at 0x80037ed0.
+(13|139906701543296) TransportSendStrategy::send() [1] - sending data at 0x10da0e8.
+(13|139906701543296) TransportSendStrategy::do_send_packet() [1] - sending data at 0x80037ed0.
+(13|139906701543296) WriteDataContainer::remove_oldest_sample: domain 42 topic Movie Discussion List publication 01030000.00000000.00000002.00000102(de7bb3b0) sample removed from HISTORY.
+(13|139906701543296) TransportSendStrategy::send() [1] - sending data at 0x10da0e8.
+(13|139906701543296) TransportSendStrategy::do_send_packet() [1] - sending data at 0x80037ed0.
+(13|139906701543296) TransportSendStrategy::send() [1] - sending data at 0x10da0e8.
+(13|139906701543296) TransportSendStrategy::do_send_packet() [1] - sending data at 0x80037ed0.
+(13|139906701543296) WriteDataContainer::remove_oldest_sample: domain 42 topic Movie Discussion List publication 01030000.00000000.00000002.00000102(de7bb3b0) sample removed from HISTORY.
+(13|139906701543296) TransportSendStrategy::send() [1] - sending data at 0x10da0e8.
+(13|139906701543296) TransportSendStrategy::do_send_packet() [1] - sending data at 0x80037ed0.
+(13|139906701543296) TransportSendStrategy::send() [1] - sending data at 0x10da0e8.
+(13|139906701543296) TransportSendStrategy::do_send_packet() [1] - sending data at 0x80037ed0.
+(13|139906701543296) WriteDataContainer::remove_oldest_sample: domain 42 topic Movie Discussion List publication 01030000.00000000.00000002.00000102(de7bb3b0) sample removed from HISTORY.
+(13|139906701543296) TransportSendStrategy::send() [1] - sending data at 0x10da0e8.
+(13|139906701543296) TransportSendStrategy::do_send_packet() [1] - sending data at 0x80037ed0.
+(13|139906701543296) TransportSendStrategy::send() [1] - sending data at 0x10da0e8.
+(13|139906701543296) TransportSendStrategy::do_send_packet() [1] - sending data at 0x80037ed0.
+(13|139906701543296) WriteDataContainer::remove_oldest_sample: domain 42 topic Movie Discussion List publication 01030000.00000000.00000002.00000102(de7bb3b0) sample removed from HISTORY.
+(13|139906701543296) TransportSendStrategy::send() [1] - sending data at 0x10da0e8.
+(13|139906701543296) TransportSendStrategy::do_send_packet() [1] - sending data at 0x80037ed0.
+(13|139906701543296) TransportSendStrategy::send() [1] - sending data at 0x10da0e8.
+(13|139906701543296) TransportSendStrategy::do_send_packet() [1] - sending data at 0x80037ed0.
+(13|139906701543296) WriteDataContainer::remove_oldest_sample: domain 42 topic Movie Discussion List publication 01030000.00000000.00000002.00000102(de7bb3b0) sample removed from HISTORY.
+(13|139906701543296) TransportSendStrategy::send() [1] - sending data at 0x10da0e8.
+(13|139906701543296) TransportSendStrategy::do_send_packet() [1] - sending data at 0x80037ed0.
+(13|139906701543296) TransportSendStrategy::send() [1] - sending data at 0x10da0e8.
+(13|139906701543296) TransportSendStrategy::do_send_packet() [1] - sending data at 0x80037ed0.
+(13|139906701543296) WriteDataContainer::remove_oldest_sample: domain 42 topic Movie Discussion List publication 01030000.00000000.00000002.00000102(de7bb3b0) sample removed from HISTORY.
+(13|139906701543296) TransportSendStrategy::send() [1] - sending data at 0x10da0e8.
+(13|139906701543296) TransportSendStrategy::do_send_packet() [1] - sending data at 0x80037ed0.
+(13|139906701543296) TransportSendStrategy::send() [1] - sending data at 0x10da0e8.
+(13|139906701543296) TransportSendStrategy::do_send_packet() [1] - sending data at 0x80037ed0.
+(13|139906701543296) WriteDataContainer::remove_oldest_sample: domain 42 topic Movie Discussion List publication 01030000.00000000.00000002.00000102(de7bb3b0) sample removed from HISTORY.
+(13|139906701543296) TransportSendStrategy::send() [1] - sending data at 0x10da0e8.
+(13|139906701543296) TransportSendStrategy::do_send_packet() [1] - sending data at 0x80037ed0.
+(13|139906701543296) TransportSendStrategy::send() [1] - sending data at 0x10da0e8.
+(13|139906701543296) TransportSendStrategy::do_send_packet() [1] - sending data at 0x80037ed0.
+(13|139906701543296) WriteDataContainer::remove_oldest_sample: domain 42 topic Movie Discussion List publication 01030000.00000000.00000002.00000102(de7bb3b0) sample removed from HISTORY.
+(13|139906701543296) TransportSendStrategy::send() [1] - sending data at 0x10da0e8.
+(13|139906701543296) TransportSendStrategy::do_send_packet() [1] - sending data at 0x80037ed0.
+(13|139906701543296) TransportSendStrategy::send() [1] - sending data at 0x10da0e8.
+(13|139906701543296) TransportSendStrategy::do_send_packet() [1] - sending data at 0x80037ed0.
+(13|139906701543296) DataWriterImpl::remove_associations: bit 0 local 01030000.00000000.00000002.00000102(de7bb3b0) remote 01030000.00000000.00000003.00000107(93716e8f) num remotes 1
+(13|139906701543296) DataWriterImpl::lookup_instance_handles: searching for handles for reader Ids: 01030000.00000000.00000003.00000107(93716e8f).
+(13|139906701543296) ConditionImpl::signal_all()
+(13|139906701543296) StatusConditionImpl::get_trigger_value() - mask==0x2000, changes==0x2000.
+(13|139906701543296) ConditionImpl::signal_all() - number of sets: 0, locally: 0.
+(13|139906701543296) DataLink::release_reservations() - releasing association local: 01030000.00000000.00000002.00000102(de7bb3b0) <--> with remote 01030000.00000000.00000003.00000107(93716e8f).
+(13|139906701543296) TcpTransport::release_datalink() - link with priority 0 released.
+   There are 0 publications currently associated with this link:
+(13|139906701543296) Service_Participant::get_discovery: returning repository for domain 42, repo DEFAULT_REPO.
+(13|139906701543296) Service_Participant::get_discovery: returning repository for domain 42, repo DEFAULT_REPO.
+(13|139906701543296) Service_Participant::get_discovery: returning repository for domain 42, repo DEFAULT_REPO.
+(13|139906701543296) TransportSendStrategy::send() [1] - sending data at 0x1119c80.
+(13|139906701543296) TransportSendStrategy::do_send_packet() [1] - sending data at 0x80037ed0.
+(13|139906701543296) ReactorSynch::~ReactorSynch() [0] - dismantling synch without worker.

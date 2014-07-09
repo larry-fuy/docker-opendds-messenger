@@ -1,22 +1,40 @@
 #!/usr/bin/sh
 
 # load Opendds images
-docker pull yongfu/opendds
+docker pull yongfu/opendds > /dev/null 2>&1
 
 repo_port=10000
-names=(inforepo, publisher, subscriber)
+host_port=1234
+names=(inforepo publisher subscriber)
 
 # run three docker containers for InfoRepo, publisher
 # and subscriber
-docker run -d --name inforepo -e "REPO_PORT=$REPO_PORT" yongfu/opendds -v ./scripts:/scripts /scripts/repo.sh
-docker run -d --name publisher -w "$WORK_DIR" yongfu/opendds -v ./scripts:/scripts /scripts/publisher.sh 
-#./publisher -ORBDottedDecimalAddresses 1 -DCPSConfigFile pub.ini
-docker run -d --name subscriber -w "$WORK_DIR" yongfu/opendds -v ./scripts:/scrips /scripts/subscriber.sh
-#./subscriber -ORBDottedDecimalAddresses 1 -DCPSConfigFile pub.ini > message.txt
+# todo : upgrade docker and use env-file
+echo "run InfoRepo..."
+docker run -d  --name inforepo  -v "$PWD/scripts:/scripts" -w /scripts --env "repo_port=$repo_port" yongfu/opendds /scripts/repo.sh > /dev/null 2>&1
+repo_ip=$(docker inspect --format='{{.NetworkSettings.IPAddress}}' inforepo)
 
+# run publisher and subscriber
+echo "run Publisher..."
+docker run -d --name publisher -e "repo_ip=$repo_ip" -e "repo_port=$repo_port" -e "host_port=$host_port"  -v "$PWD/scripts:/scripts"  -w /scripts yongfu/opendds /scripts/publisher.sh > /dev/null 2>&1
+echo "run Subscriber..."
+docker run -d --name subscriber -e "repo_ip=$repo_ip" -e "repo_port=$repo_port" -e "host_port=$host_port"  -v "$PWD/scripts:/scripts"  -w /scripts yongfu/opendds /scripts/subscriber.sh > /dev/null 2>&1
+
+# need some time to transfer message
+echo "wait a moment..."
+sleep 10s
+
+# compare the sent and received message
+# todo : more tests
+rm -f ./scripts/received_message
+if diff -q ./scripts/message.txt ./scripts/received_message.txt ; 
+then
+    echo "passed"
+else    
+    echo "something wrong!"
+fi
 
 # stop and destroy the docker containers
-for n in ($names) ; do
-    docker stop $n
-    docker rm $n
-done
+echo "clean up..."
+docker stop ${names[*]} > /dev/null 2>&1
+docker rm ${names[*]} > /dev/null 2>&1
