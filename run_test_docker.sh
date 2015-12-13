@@ -36,5 +36,5 @@ fi
 
 # stop and destroy the docker containers
 echo "clean up..."
-docker stop ${names[*]} > /dev/null 2>&1
+docker stop inforepo > /dev/null 2>&1
 docker rm ${names[*]} > /dev/null 2>&1
